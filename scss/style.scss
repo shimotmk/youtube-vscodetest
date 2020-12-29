@@ -7,25 +7,21 @@ p10	padding: 10px;
 m10p	margin: 10%;
 fz14	font-size: 16px; 
 */
+
+$textColor: rgb(74, 71, 71);
+
 .class {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin: 0 auto;
   padding: 16px;
   font-size: 16px;
   text-align: center;
-  color: #4a4747;
+  color: $textColor;
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-style: 16px;
 }
-/*# sourceMappingURL=style.css.map */
